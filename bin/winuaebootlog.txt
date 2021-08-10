@@ -1,0 +1,316 @@
+﻿
+WinUAE 4.4.0 (2020.07.01) 64-bit (10.0.19042 [1]) 64-bit 9.15.200 4 15:32 0
+(c) 1995-2001 Bernd Schmidt   - Core UAE concept and implementation.
+(c) 1998-2020 Toni Wilen      - Win32 port, core code updates.
+(c) 1996-2001 Brian King      - Win32 port, Picasso96 RTG, and GUI.
+(c) 1996-1999 Mathias Ortmann - Win32 port and bsdsocket support.
+(c) 2000-2001 Bernd Meyer     - JIT engine.
+(c) 2000-2005 Bernd Roesch    - MIDI input, many fixes.
+Press F12 to show the Settings Dialog (GUI), Alt-F4 to quit.
+End+F1 changes floppy 0, End+F2 changes floppy 1, etc.
+'D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\bin\winuae.exe'
+EXE: 'D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\bin\', DATA: 'D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\bin\', PLUGIN: 'D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\bin\'
+'D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\bin\winuae.ini' enabled
+'-f default.uae -s filesystem=rw,dh0:D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\uae\dh0 -s debugging_trigger=SYS:hank2021 -s debugging_features=gdbserver'
+params:
+1: '-f'
+2: 'default.uae'
+3: '-s'
+4: 'filesystem=rw,dh0:D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\uae\dh0'
+5: '-s'
+6: 'debugging_trigger=SYS:hank2021'
+7: '-s'
+8: 'debugging_features=gdbserver'
+MMAN: Total physical RAM 16366 MB, all RAM 27967 MB
+MMAN: Attempting to reserve: 2048 MB
+VM: Reserve  0x80000000 bytes, try address 0x80000000
+VM: Reserve  0x80000000 bytes, got address 0x80000000
+MMAN: Reserved 0000000080000000-0000000100000000 (0x80000000 2048M)
+CLOCKFREQ: QPF 10.00MHz (5.00MHz, DIV=2)
+Enumerating display devices.. 
+Sorting devices and modes..
+NVIDIA GeForce GT 720 '\\.\DISPLAY1' [PCI\VEN_10DE&DEV_1288&SUBSYS_128810DE&REV_A1]
+-: Generic PnP Monitor (1920*1200) * [\Registry\Machine\System\CurrentControlSet\Control\Class\{4d36e96e-e325-11ce-bfc1-08002be10318}\0002]
+0: 640x480, 32-bit (60,66,72,75)
+1: 720x480, 32-bit (60,72,75)
+2: 720x576, 32-bit (60,72,75)
+3: 800x600, 32-bit (60,72,75)
+4: 1024x768, 32-bit (60,70,75)
+5: 1152x864, 32-bit (60,72,75)
+6: 1280x720, 32-bit (60,72,75)
+7: 1280x768, 32-bit (60,72,75)
+8: 1280x800, 32-bit (60,72,75)
+9: 1280x960, 32-bit (60,72,75)
+10: 1280x1024, 32-bit (60,72,75)
+11: 1360x768, 32-bit (60,75)
+12: 1366x768, 32-bit (60,75)
+13: 1440x900, 32-bit (60,75)
+14: 1600x900, 32-bit (59,60)
+15: 1600x1024, 32-bit (59,60)
+16: 1600x1200, 32-bit (60)
+17: 1680x1050, 32-bit (59,60)
+18: 1920x1080, 32-bit (59,60)
+19: 1920x1200, 32-bit (59,60)
+20 display modes.
+NVIDIA GeForce GT 720 '\\.\DISPLAY2' [PCI\VEN_10DE&DEV_1288&SUBSYS_128810DE&REV_A1]
+-: Generic PnP Monitor (1920*1200) [1920*0] [\Registry\Machine\System\CurrentControlSet\Control\Class\{4d36e96e-e325-11ce-bfc1-08002be10318}\0001]
+0: 640x480, 32-bit (60,66,72,75)
+1: 720x480, 32-bit (60,72,75)
+2: 720x576, 32-bit (60,72,75)
+3: 800x600, 32-bit (60,72,75)
+4: 1024x768, 32-bit (60,70,75)
+5: 1152x864, 32-bit (60,72,75)
+6: 1280x720, 32-bit (60,72,75)
+7: 1280x768, 32-bit (60,72,75)
+8: 1280x800, 32-bit (60,72,75)
+9: 1280x960, 32-bit (60,72,75)
+10: 1280x1024, 32-bit (60,72,75)
+11: 1360x768, 32-bit (60,75)
+12: 1366x768, 32-bit (60,75)
+13: 1440x900, 32-bit (60,75)
+14: 1600x900, 32-bit (59,60)
+15: 1600x1024, 32-bit (59,60)
+16: 1600x1200, 32-bit (60)
+17: 1680x1050, 32-bit (59,60)
+18: 1920x1080, 32-bit (59,60)
+19: 1920x1200, 32-bit (59,60)
+20 display modes.
+Desktop: W=1920 H=1200 B=32 HZ=60. CXVS=3840 CYVS=1200
+Enumerating WASAPI devices...
+Enumerating DirectSound devices..
+Enumeration end
+0:WA: Default Audio Device
+1:WA: Multichannel (M-Audio Delta Audiophile)
+2:WA: S/PDIF (M-Audio Delta Audiophile)
+3:WA: Line 1/2 (M-Audio Delta Audiophile)
+4:WX: Default Audio Device
+5:WX: Multichannel (M-Audio Delta Audiophile)
+6:WX: S/PDIF (M-Audio Delta Audiophile)
+7:WX: Line 1/2 (M-Audio Delta Audiophile)
+8:DS: Primärer Soundtreiber
+9:DS: Line 1/2 (M-Audio Delta Audiophile)
+10:DS: Multichannel (M-Audio Delta Audiophile)
+11:DS: S/PDIF (M-Audio Delta Audiophile)
+Enumerating recording devices:
+0:DS: Primärer Soundaufnahmetreiber
+1:DS: Line 1/2 (M-Audio Delta Audiophile)
+2:DS: Multichannel (M-Audio Delta Audiophile)
+3:DS: Monitor (M-Audio Delta Audiophile)
+4:DS: S/PDIF (M-Audio Delta Audiophile)
+done
+Filesystem charset (ACP=1252,FSCP=28605):
+ 00: 0000        01: 0001        02: 0002        03: 0003       
+ 04: 0004        05: 0005        06: 0006        07: 0007       
+ 08: 0008        09: 0009        0A: 000A        0B: 000B       
+ 0C: 000C        0D: 000D        0E: 000E        0F: 000F       
+ 10: 0010        11: 0011        12: 0012        13: 0013       
+ 14: 0014        15: 0015        16: 0016        17: 0017       
+ 18: 0018        19: 0019        1A: 001A        1B: 001B       
+ 1C: 001C        1D: 001D        1E: 001E        1F: 001F       
+ 20: 0020        21: 0021        22: 0022        23: 0023       
+ 24: 0024        25: 0025        26: 0026        27: 0027       
+ 28: 0028        29: 0029        2A: 002A        2B: 002B       
+ 2C: 002C        2D: 002D        2E: 002E        2F: 002F       
+ 30: 0030        31: 0031        32: 0032        33: 0033       
+ 34: 0034        35: 0035        36: 0036        37: 0037       
+ 38: 0038        39: 0039        3A: 003A        3B: 003B       
+ 3C: 003C        3D: 003D        3E: 003E        3F: 003F       
+ 40: 0040        41: 0041        42: 0042        43: 0043       
+ 44: 0044        45: 0045        46: 0046        47: 0047       
+ 48: 0048        49: 0049        4A: 004A        4B: 004B       
+ 4C: 004C        4D: 004D        4E: 004E        4F: 004F       
+ 50: 0050        51: 0051        52: 0052        53: 0053       
+ 54: 0054        55: 0055        56: 0056        57: 0057       
+ 58: 0058        59: 0059        5A: 005A        5B: 005B       
+ 5C: 005C        5D: 005D        5E: 005E        5F: 005F       
+ 60: 0060        61: 0061        62: 0062        63: 0063       
+ 64: 0064        65: 0065        66: 0066        67: 0067       
+ 68: 0068        69: 0069        6A: 006A        6B: 006B       
+ 6C: 006C        6D: 006D        6E: 006E        6F: 006F       
+ 70: 0070        71: 0071        72: 0072        73: 0073       
+ 74: 0074        75: 0075        76: 0076        77: 0077       
+ 78: 0078        79: 0079        7A: 007A        7B: 007B       
+ 7C: 007C        7D: 007D        7E: 007E        7F: 007F       
+ 80: 20AC (0080) 81: 0081        82: 201A (0082) 83: 0192 (0083)
+ 84: 201E (0084) 85: 2026 (0085) 86: 2020 (0086) 87: 2021 (0087)
+ 88: 02C6 (0088) 89: 2030 (0089) 8A: 0160 (008A) 8B: 2039 (008B)
+ 8C: 0152 (008C) 8D: 008D        8E: 017D (008E) 8F: 008F       
+ 90: 0090        91: 2018 (0091) 92: 2019 (0092) 93: 201C (0093)
+ 94: 201D (0094) 95: 2022 (0095) 96: 2013 (0096) 97: 2014 (0097)
+ 98: 02DC (0098) 99: 2122 (0099) 9A: 0161 (009A) 9B: 203A (009B)
+ 9C: 0153 (009C) 9D: 009D        9E: 017E (009E) 9F: 0178 (009F)
+ A0: 00A0        A1: 00A1        A2: 00A2        A3: 00A3       
+ A4: 00A4 (20AC) A5: 00A5        A6: 00A6 (0160) A7: 00A7       
+ A8: 00A8 (0161) A9: 00A9        AA: 00AA        AB: 00AB       
+ AC: 00AC        AD: 00AD        AE: 00AE        AF: 00AF       
+ B0: 00B0        B1: 00B1        B2: 00B2        B3: 00B3       
+ B4: 00B4 (017D) B5: 00B5        B6: 00B6        B7: 00B7       
+ B8: 00B8 (017E) B9: 00B9        BA: 00BA        BB: 00BB       
+ BC: 00BC (0152) BD: 00BD (0153) BE: 00BE (0178) BF: 00BF       
+ C0: 00C0        C1: 00C1        C2: 00C2        C3: 00C3       
+ C4: 00C4        C5: 00C5        C6: 00C6        C7: 00C7       
+ C8: 00C8        C9: 00C9        CA: 00CA        CB: 00CB       
+ CC: 00CC        CD: 00CD        CE: 00CE        CF: 00CF       
+ D0: 00D0        D1: 00D1        D2: 00D2        D3: 00D3       
+ D4: 00D4        D5: 00D5        D6: 00D6        D7: 00D7       
+ D8: 00D8        D9: 00D9        DA: 00DA        DB: 00DB       
+ DC: 00DC        DD: 00DD        DE: 00DE        DF: 00DF       
+ E0: 00E0        E1: 00E1        E2: 00E2        E3: 00E3       
+ E4: 00E4        E5: 00E5        E6: 00E6        E7: 00E7       
+ E8: 00E8        E9: 00E9        EA: 00EA        EB: 00EB       
+ EC: 00EC        ED: 00ED        EE: 00EE        EF: 00EF       
+ F0: 00F0        F1: 00F1        F2: 00F2        F3: 00F3       
+ F4: 00F4        F5: 00F5        F6: 00F6        F7: 00F7       
+ F8: 00F8        F9: 00F9        FA: 00FA        FB: 00FB       
+ FC: 00FC        FD: 00FD        FE: 00FE        FF: 00FF       
+End
+CW: No Catweasel detected
+PARAPORT: no ParaPort.dll, direct parallel port emulation disabled
+IPC: Named Pipe '\\.\pipe\WinUAE_1' open
+Found already existing serial port shared memory
+Serial port enumeration..
+SERPORT: 'Kommunikationsanschluss (COM1)' = 'COM1' = '\\?\acpi#pnp0501#1#{86e0d1e0-8089-11d0-9ce4-08003e301f73}'
+Parallel port enumeration..
+Port enumeration end
+MIDI port enumeration.. IN=1 OUT=2
+MIDI OUT: -1:'Microsoft MIDI Mapper' (1/1)
+MIDI OUT: 0:'Microsoft GS Wavetable Synth' (1/27)
+MIDI OUT: 1:'Delta AP MIDI' (239/65535)
+MIDI IN: 0:'Delta AP MIDI' (239/65535)
+MIDI port enumeration end
+RawInput enumeration..
+RAWINPUT: found 11 devices
+HID device check:
+00000000000100BB 0 0100/0010 (0/0)
+(55 00 53 00 42 00 20 00 52 00 65 00 63 00 65 00 69 00 76 00 65 00 72 00) 'USB Receiver'
+00000000000100BB 00000000000004A0 [046D/C52B] mouse: '\\?\HID#VID_046D&PID_C52B&MI_01&Col01#9&276ffc14&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}'
+id=256 buttons=16 hw=0 rate=0
+00000000000100B9 1 0051/0000 (0/12)
+(55 00 53 00 42 00 20 00 52 00 65 00 63 00 65 00 69 00 76 00 65 00 72 00) 'USB Receiver'
+00000000000100B9 000000000000049C [046D/C52B] keyboard: '\\?\HID#VID_046D&PID_C52B&MI_00#9&3aa01852&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}'
+type=81 sub=0 mode=1 fkeys=12 indicators=3 tkeys=173
+00000000000100B7 2 046D/C52B (4/65280)
+RAWHID: Usage 4, reserved page FF00
+00000000000100B5 2 046D/C52B (2/65280)
+RAWHID: Usage not 4 or 5 (0002)
+00000000000100B3 2 046D/C52B (1/65280)
+RAWHID: Usage not 4 or 5 (0001)
+00000000000100B1 2 046D/C52B (136/65468)
+RAWHID: Usage not 4 or 5 (0088)
+00000000000100AF 2 046D/C52B (1/12)
+RAWHID: Usage not 4 or 5 (0001)
+000000000001003E 2 046D/C505 (1/12)
+RAWHID: Usage not 4 or 5 (0001)
+000000000001003C 2 046D/C505 (1/12)
+RAWHID: Usage not 4 or 5 (0001)
+000000000001003A 1 0051/0000 (0/12)
+(55 00 53 00 42 00 20 00 52 00 65 00 63 00 65 00 69 00 76 00 65 00 72 00) 'USB Receiver'
+000000000001003A 00000000000004CC [046D/C505] keyboard: '\\?\HID#VID_046D&PID_C505&MI_00#7&469d3e5&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}'
+type=81 sub=0 mode=1 fkeys=12 indicators=3 tkeys=174
+0000000000010038 0 0100/0010 (0/0)
+(55 00 53 00 42 00 20 00 52 00 65 00 63 00 65 00 69 00 76 00 65 00 72 00) 'USB Receiver'
+0000000000010038 00000000000004D0 [046D/C505] mouse: '\\?\HID#VID_046D&PID_C505&MI_01&Col01#7&1c2d602a&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}'
+id=256 buttons=16 hw=0 rate=0
+[046D/C52B] '\\?\HID#VID_046D&PID_C52B&MI_01&Col01#9&276ffc14&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}' (RAW Mouse (046D/C52B)) -> 'HID-konforme Maus'
+[046D/C505] '\\?\HID#VID_046D&PID_C505&MI_01&Col01#7&1c2d602a&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}' (RAW Mouse (046D/C505)) -> 'HID-konforme Maus'
+HID-konforme Maus: [046D/C52B]
+00 000 'X Axis' (0, [0 - 0, 0 - 0, 0 0 0])
+01 001 'Y Axis' (1, [0 - 0, 0 - 0, 0 0 0])
+02 002 'Wheel' (2, [0 - 0, 0 - 0, 0 0 0])
+03 003 'HWheel' (3, [0 - 0, 0 - 0, 0 0 0])
+00 000 'Button 1' (0)
+01 001 'Button 2' (1)
+02 002 'Button 3' (2)
+03 003 'Button 4' (3)
+04 004 'Button 5' (4)
+05 005 'Button 6' (5)
+06 006 'Button 7' (6)
+07 007 'Button 8' (7)
+08 008 'Button 9' (8)
+09 009 'Button 10' (9)
+0A 010 'Button 11' (10)
+0B 011 'Button 12' (11)
+0C 012 'Button 13' (12)
+0D 013 'Button 14' (13)
+0E 014 'Button 15' (14)
+0F 015 'Button 16' (15)
+02 002 'Wheel [-]' (1004)
+02 002 'Wheel [+]' (1005)
+03 003 'HWheel [-]' (1006)
+03 003 'HWheel [+]' (1007)
+HID-konforme Maus: [046D/C505]
+00 000 'X Axis' (0, [0 - 0, 0 - 0, 0 0 0])
+01 001 'Y Axis' (1, [0 - 0, 0 - 0, 0 0 0])
+02 002 'Wheel' (2, [0 - 0, 0 - 0, 0 0 0])
+03 003 'HWheel' (3, [0 - 0, 0 - 0, 0 0 0])
+00 000 'Button 1' (0)
+01 001 'Button 2' (1)
+02 002 'Button 3' (2)
+03 003 'Button 4' (3)
+04 004 'Button 5' (4)
+05 005 'Button 6' (5)
+06 006 'Button 7' (6)
+07 007 'Button 8' (7)
+08 008 'Button 9' (8)
+09 009 'Button 10' (9)
+0A 010 'Button 11' (10)
+0B 011 'Button 12' (11)
+0C 012 'Button 13' (12)
+0D 013 'Button 14' (13)
+0E 014 'Button 15' (14)
+0F 015 'Button 16' (15)
+02 002 'Wheel [-]' (1004)
+02 002 'Wheel [+]' (1005)
+03 003 'HWheel [-]' (1006)
+03 003 'HWheel [+]' (1007)
+DirectInput enumeration.. Game controllers..
+Windowsmouse initialization..
+Catweasel joymouse initialization..
+wintab tablet initialization..
+Tablet 'WACOM Tablet' detected
+end
+K 00: 'WinUAE keyboard' (NULLKEYBOARD)
+K 01: 'USB Receiver [1]' (\\?\HID#VID_046D&PID_C52B&MI_00#9&3aa01852&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd})
+K 02: 'USB Receiver [2]' (\\?\HID#VID_046D&PID_C505&MI_00#7&469d3e5&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd})
+KS ver = 34 (0x22)
+Stored port 0/0 d=0: added 200 0  
+Stored port 0/0 d=0: added 200 0 Windows mouse WINMOUSE1
+Port0: ID 'mouse' matched
+Stored port 1/0 d=0: added 0 0  
+Stored port 1/0 d=0: added 0 0  
+Port1: ID 'kbd1' matched
+Port2: NONE
+Port3: NONE
+config reset
+load config '.\default.uae':0
+unknown config entry: 'comp_catchdetect=true'
+0 2: 0 -> 0 (WinUAE keyboard)
+KS ver = 40 (0x28)
+Stored port 0/0 d=1: added 200 0 Windows mouse WINMOUSE1
+Port0: COMBO 'Windows mouse' + 'WINMOUSE1' matched
+Stored port 1/0 d=1: added 0 0  
+Port1: ID 'kbd1' matched
+Port2: NONE
+Port3: NONE
+Possible boxart path: '..\uae\dh0'
+KS ver = 40 (0x28)
+Stored port 0/1 d=1: added 200 0 Windows mouse WINMOUSE1
+Port0: COMBO 'Windows mouse' + 'WINMOUSE1' matched
+Stored port 1/1 d=1: added 0 0  
+Port1: ID 'kbd1' matched
+Port2: NONE
+Port3: NONE
+config reset
+load config 'default.uae':0
+unknown config entry: 'comp_catchdetect=true'
+0 2: 0 -> 0 (WinUAE keyboard)
+KS ver = 40 (0x28)
+Stored port 0/2 d=0: added 200 0 Windows mouse WINMOUSE1
+Port0: COMBO 'Windows mouse' + 'WINMOUSE1' matched
+Stored port 1/2 d=0: added 0 0  
+Stored port 1/2 d=0: added 0 0  
+Port1: ID 'kbd1' matched
+Port2: NONE
+Port3: NONE
+Possible boxart path: '..\uae\dh0'
+Log (disabled): 'D:\dirkm\RetroSystems\Amiga\XDev\vscode-amiga-Hank2021\bin\winuaelog.txt'
