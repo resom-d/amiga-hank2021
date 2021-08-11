@@ -189,8 +189,6 @@ WaitRaster:
        
 ******************************************************************
 ;Copperbar
-Copbaracc    = 2
-Copbardec    = 2
 
 Copperbar:
               lea         CopBar,a0 
