@@ -188,7 +188,7 @@ WaitRaster:
               rts
        
 ******************************************************************
-;Copperbar
+;Copperbar Up-Down
 
 Copperbar:
               lea         CopBar,a0 
